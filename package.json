@@ -1,6 +1,7 @@
 {
   "name": "dna-automation",
   "version": "1.0.0",
+  "type": "module",
   "description": "Collection of browser console scripts for automating Duet Night Abyss survey forms, web-based events, and other tasks",
   "repository": {
     "type": "git",
@@ -19,9 +20,14 @@
     "userscript"
   ],
   "scripts": {
-    "format": "prettier --write . --cache"
+    "format": "prettier --write . --cache",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "test:ui": "playwright test --ui"
   },
   "devDependencies": {
+    "@playwright/test": "^1.56.1",
     "prettier": "^3.6.2",
     "prettier-plugin-pkg": "^0.21.2"
   }
