@@ -1,0 +1,61 @@
+/* Open Sans - Variable Font for sans-serif */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300 800;
+  font-stretch: 75% 100%;
+  font-display: swap;
+  src: url('@/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300 800;
+  font-stretch: 75% 100%;
+  font-display: swap;
+  src: url('@/assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+/* JetBrains Mono - Variable Monospace Font */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 100 800;
+  font-display: swap;
+  src: url('@/assets/fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 100 800;
+  font-display: swap;
+  src: url('@/assets/fonts/JetBrains_Mono/JetBrainsMono-Italic-VariableFont_wght.ttf')
+    format('truetype');
+}
+
+/* Source Serif 4 - Variable Font for serif */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url('@/assets/fonts/Source_Serif_4/SourceSerif4-VariableFont_opsz,wght.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url('@/assets/fonts/Source_Serif_4/SourceSerif4-Italic-VariableFont_opsz,wght.ttf')
+    format('truetype');
+}
+
+@theme {
+  --font-sans: 'Open Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-serif: 'Source Serif 4', serif;
+}

@@ -19,9 +19,7 @@ Automatically fills out survey forms on wjx.cn with random selections.
 3. Copy and paste this code, then press Enter:
 
    ```javascript
-   fetch(
-     'https://raw.githubusercontent.com/getthevoid/dna-automation/main/scripts/survey/autofill.js'
-   )
+   fetch('https://getthevoid.github.io/dna-automation/scripts/survey/autofill.js')
      .then(r => r.text())
      .then(eval);
    ```
@@ -39,9 +37,7 @@ Unlocks all 17 character roles in the divination event on dna-panstudio.com.
 3. Copy and paste this code, then press Enter:
 
    ```javascript
-   fetch(
-     'https://raw.githubusercontent.com/getthevoid/dna-automation/main/scripts/events/divination-bot.js'
-   )
+   fetch('https://getthevoid.github.io/dna-automation/scripts/events/divination-bot.js')
      .then(r => r.text())
      .then(eval);
    ```
