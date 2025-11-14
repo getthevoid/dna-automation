@@ -1,0 +1,17 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "dna-automation",
+      "devDependencies": {
+        "prettier": "^3.6.2",
+        "prettier-plugin-pkg": "^0.21.2",
+      },
+    },
+  },
+  "packages": {
+    "prettier": ["prettier@3.6.2", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ=="],
+
+    "prettier-plugin-pkg": ["prettier-plugin-pkg@0.21.2", "", { "peerDependencies": { "prettier": "^3.0.3" } }, "sha512-CSlM5+51B7yTKcoRWT4M3ImcdFHD5NUz0Xu2t8J03B761zu6J3BjSo/XleKp2kB0tH49K7oG5Uuqn6ldI5LRLg=="],
+  }
+}

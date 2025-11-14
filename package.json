@@ -1,0 +1,28 @@
+{
+  "name": "dna-automation",
+  "version": "1.0.0",
+  "description": "Collection of browser console scripts for automating Duet Night Abyss survey forms, web-based events, and other tasks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getthevoid/dna-automation.git"
+  },
+  "author": "pyyupsk",
+  "license": "MIT",
+  "keywords": [
+    "automation",
+    "autofill",
+    "survey",
+    "duet-night-abyss",
+    "browser-console",
+    "web-automation",
+    "event-automation",
+    "userscript"
+  ],
+  "scripts": {
+    "format": "prettier --write . --cache"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "prettier-plugin-pkg": "^0.21.2"
+  }
+}
