@@ -16,7 +16,15 @@ Automatically fills out survey forms on wjx.cn with random selections.
 
 1. Go to a survey on wjx.cn
 2. Open console (F12)
-3. Paste script and press Enter
+3. Copy and paste this code, then press Enter:
+
+   ```javascript
+   fetch(
+     'https://raw.githubusercontent.com/getthevoid/dna-automation/main/scripts/survey/autofill.js'
+   )
+     .then(r => r.text())
+     .then(eval);
+   ```
 
 ### Divination Bot
 
@@ -28,7 +36,16 @@ Unlocks all 17 character roles in the divination event on dna-panstudio.com.
 
 1. Go to the divination event page
 2. Open console (F12)
-3. Paste script and press Enter
+3. Copy and paste this code, then press Enter:
+
+   ```javascript
+   fetch(
+     'https://raw.githubusercontent.com/getthevoid/dna-automation/main/scripts/events/divination-bot.js'
+   )
+     .then(r => r.text())
+     .then(eval);
+   ```
+
 4. Auto-starts after 2 seconds
 5. Stop with `globalThis.divinationBot.stop()`
 
